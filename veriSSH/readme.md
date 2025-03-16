@@ -13,7 +13,7 @@
 ./verifySSHFingerprint.sh -h=192.168.1.156 -p=2229 -t=Ed25519 -ff=../fingerprint.txt
 ```
 
-# Intruduction of verifySSHFingerprint
+# Introduction of verifySSHFingerprint
 
 ## Purpose of verifySSHFingerprint
 **Before** logging in an SSH server, it would be good to compare the fingerprint of the public SSH key from the SSH server with the fingerprint for the SSH server via a secure channel.
